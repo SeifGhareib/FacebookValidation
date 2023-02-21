@@ -1,0 +1,168 @@
+/* Start Code */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f0f2f5;
+}
+::placeholder:hover{
+opacity: 0;
+}
+
+/* .login-Container */
+.login-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: row;
+}
+/* Left-Section */
+.left-sec {
+  text-align: center;
+  margin-right: 400px;
+  position: relative;
+}
+
+
+
+img {
+  width: 301px;
+  margin-left: 264px;
+  margin-bottom: 249px;
+}
+
+
+
+h2 {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 93px;
+  left: 291px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-weight: normal;
+}
+
+
+
+span {
+  margin-right: 177px;
+}
+
+/* //Left-Section// */
+
+/* Right-Section */
+.login-container .last-input a {
+  text-decoration: none;
+  background-color: #42b72a;
+  color: white;
+  border: 1px solid;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 13px 21px;
+  transition: all .2s;
+}
+
+
+
+.login-container .last-input a:hover {
+  background-color: #43ad2b;
+}
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 23px;
+  margin-right: 195px;
+  width: 400px;
+  padding-top: 1rem;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 366px
+}
+
+
+form p:last-child a {
+  font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 370px;
+  padding: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #dddfe2;
+  background-color: white;
+}
+input[type="email"]::placeholder {
+  opacity: 1;
+}
+input[type="email"]:focus::placeholder {
+  opacity: .5;
+}
+input[type="password"]::placeholder {
+  opacity: 1;
+}
+input[type="password"]:focus::placeholder {
+  opacity: .5;
+}
+
+
+input[type="email"]:focus {
+  outline: 1px solid #1877f2;
+}
+
+input[type="password"]:focus {
+  outline: 1px solid #1877f2;
+}
+
+
+button[type="submit"] {
+  width: 370px;
+  padding: 0 16px;
+  margin-top: 9px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #1877f2;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+  background-color: #1877f2;
+  line-height: 48px;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #0d69e0;
+}
+
+p {
+  margin-top: 40px;
+}
+
+a {
+  color: #1877f2;
+  text-decoration: none;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+a:hover {
+  text-decoration: underline;
+}

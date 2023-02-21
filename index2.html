@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Facebook</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link rel="stylesheet" href="links/bootstrap5.min.css">
+  <link rel="shortcut icon" href="image/fb_icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Login Container -->
+  <div class="login-container ">
+    <!-- Left Section -->
+    <div class="left-sec">
+      <!-- Facebook logo -->
+      <img src="image/facebook-logo.svg" alt="Facebook logo">
+      <!-- //Facebook logo// -->
+      <h2>
+        Facebook helps you connect and share <br>
+        <span>with the people in your life.</span>
+      </h2>
+    </div>
+    <!-- //Left Section// -->
+    <!-- Login Form -->
+    <div class="login">
+      <form novalidate onsubmit="return validateLogin()">
+        <!-- Email Input -->
+        
+        <input type="email" onclick="checkInputs()" id="email" placeholder="Email Address or Mobile Number">
+        <label></label>
+        <!-- Password Input -->
+        <input type="password" id="password" placeholder="Password">
+        <!-- Login Button -->
+        <button type="submit">Log in</button>
+        <!-- Forgotten Password Link -->
+        <p> <a href="#">Forgotten password?</a></p>
+        <!-- Create New Account Link -->
+        <p class="last-input"><a href="#">Create New Account</a></p>
+        <!-- Create a Page Link -->
+        <p><a href="">Create a Page</a> for a Celebrity, Brand, or Business.</p>
+      </form>
+    </div>
+    <!-- //Login Form// -->
+  </div>
+  <!-- //Login Container// -->
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="main.js"></script>
+  <script src="links/bootstrap5.bundle.min.js"></script>
+</body>
+
+</html>
